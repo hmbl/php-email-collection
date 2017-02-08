@@ -2,26 +2,6 @@
 // include 'google_spreadsheet.php';
 if(isset($_POST['email'])) {
 
-  //
-  // // Zend library include path
-  // set_include_path(get_include_path() . PATH_SEPARATOR . "$_SERVER[DOCUMENT_ROOT]/ZendGdata-1.8.1/library");
-  // include_once("Google_Spreadsheet.php");
-  // $u = "h.lawrence@windowslive.com";
-  // $p = "40yearsfromn0W";
-  // $ss = new Google_Spreadsheet($u,$p);
-  // $ss->useSpreadsheet("My Spreadsheet");
-  // // if not setting worksheet, "Sheet1" is assumed
-  // // $ss->useWorksheet("worksheetName");
-  // $row = array
-  // (
-  // "name" => "John Doe"
-  // , "email" => "john@example.com"
-  // , "comments" => "Hello world"
-  // );
-  // if ($ss->addRow($row)) echo "Form data successfully stored using Google Spreadsheet";
-  // else echo "Error, unable to store spreadsheet data";
-
-
     // EDIT THE 2 LINES BELOW AS REQUIRED
 
     $email_to = "h.lawrence@windowslive.com";
