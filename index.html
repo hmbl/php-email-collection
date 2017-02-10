@@ -1,18 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hmbl.co.nz/php</title>
+     <link rel="stylesheet" type="text/css" href="main.css">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+     <link rel="stylesheet" href="/lib/w3.css">
+  </head>
+  <body>
+
+
 <form name="contactform" method="post" action="send_form_email.php">
 
-<table width="450px">
+<table width="450px" class="email-box">
 
 <tr>
 
- <td valign="top">
+ <td valign="top" class="emailtext">
 
-  <label for="email">Email Address *</label>
+  <label for="email">Email Address </label>
 
  </td>
 
- <td valign="top">
+ <td valign="top" class="textbox">
 
-  <input  type="text" name="email" maxlength="80" size="30">
+  <input class="w3-input" type="text" name="email" maxlength="80" size="30">
 
  </td>
 
@@ -25,7 +37,7 @@
 
  <td colspan="2" style="text-align:center">
 
-  <input type="submit" value="Submit">   <a href="send_form_email.php">Email Form</a>
+  <input type="submit" class="button" value="Submit">
 
  </td>
 
@@ -34,3 +46,6 @@
 </table>
 
 </form>
+
+  </body>
+</html>
