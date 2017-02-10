@@ -1,0 +1,33 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+table.email-box{
+    background-color: lightblue;
+    width: 33em;
+    height: 7em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+}
+td.emailtext{
+  width:40%;
+  padding-left:10%;
+  padding-top:30px;
+}
+td.textbox{
+  width:40%;
+  padding-right:10%;
+  padding-top:30px;
+}
+.button {
+    background-color:#517682;
+    border: none;
+    color: white;
+    padding: 8px 185px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
